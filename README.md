@@ -10,6 +10,9 @@
   💬 Gifted Chat
 </h3>
 <p align="center">
+  This is a fork that allows rendering of chats even if empty (to allow headers to show regardless)
+</p>
+<p align="center">
   The most complete chat UI for React Native & Web
 </p>
 <p align="center">
