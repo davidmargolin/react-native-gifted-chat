@@ -745,7 +745,6 @@ class GiftedChat<TMessage extends IMessage = IMessage> extends React.Component<
     if (layout.height <= 0) {
       return
     }
-    this.notifyInputTextReset()
     this.setMaxHeight(layout.height)
     const newComposerHeight = this.props.minComposerHeight
     const newMessagesContainerHeight = this.getMessagesContainerHeightWithKeyboard(
