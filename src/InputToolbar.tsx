@@ -27,10 +27,7 @@ const styles = StyleSheet.create({
   primary: {
     flexDirection: 'row',
     alignItems: 'flex-end',
-  },
-  accessory: {
-    height: 44,
-  },
+  }
 })
 
 export interface InputToolbarProps {
@@ -143,7 +140,7 @@ export default class InputToolbar extends React.Component<
   renderAccessory() {
     if (this.props.renderAccessory) {
       return (
-        <View style={[styles.accessory, this.props.accessoryStyle]}>
+        <View style={this.props.accessoryStyle}>
           {this.props.renderAccessory(this.props)}
         </View>
       )
